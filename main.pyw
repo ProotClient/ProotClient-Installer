@@ -1,6 +1,5 @@
 # TODO: Add a Launcher Profile when it is done installing.
 
-
 # Import needed Librarys
 import os, shutil, base64, random, json, requests, subprocess
 from tkinter import *
