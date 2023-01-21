@@ -16,6 +16,7 @@ pyinstaller --clean -y -n "ProotClient-Installer" --onefile --icon "installer_ic
 del ProotClient-Installer.spec
 
 cls
+title ProotClient Installer Compiler
 color 0A
 echo Compiling Complete.
 echo.
