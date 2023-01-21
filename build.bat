@@ -1,10 +1,19 @@
 @echo off
+title ProotClient Installer Compiler
+color 06
+echo Please confirm that you want to start compiling.
+echo.
+echo.
+echo.
+pause
+cls
+
+color 07
 title Compiling ProotClient Installer...
-
-Rem Failsafe if PyInstaller is not installed yet.
+pip install requests
 pip install pyinstaller
-
 pyinstaller --clean -y -n "ProotClient-Installer" --onefile --icon "installer_icon.png" main.pyw
+del ProotClient-Installer.spec
 
 cls
 color 0A
