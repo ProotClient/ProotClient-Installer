@@ -1,3 +1,7 @@
+# Developing this installer is more pain than actually making stuff for the client
+
+# AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
 import os, json, sys, shutil
 from tkinter import *
 import os
@@ -28,7 +32,6 @@ target = path
 versions_path = "versions\\"
 name = "ProotClient\\"
 
-"""
 files = os.listdir(origin)
 
 os.mkdir(
@@ -40,7 +43,6 @@ for file_name in files:
         origin + file_name,
         target + versions_path + name + file_name
     )
-"""
 
 window = Tk(); window.geometry("420x210"); window.title("ProotClient Installer")
 window_icon = PhotoImage(file="ui_icon.png"); window.iconphoto(True, window_icon); window.resizable(False, False)
