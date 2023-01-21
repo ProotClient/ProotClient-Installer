@@ -1,5 +1,4 @@
-# TODO: Replace the origin folder with a system that gets a .zip file from Internet, unzip it and copy the files into the folder where it should be installed to. 
-#       Add a Launcher Profile when it is done installing.
+# TODO: Add a Launcher Profile when it is done installing.
 
 
 # Import needed Librarys
